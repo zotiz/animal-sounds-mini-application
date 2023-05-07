@@ -8,12 +8,11 @@ for (let i = 0; i < animal.length; i++) {
     selectedDiv.classList.add('active')
     setTimeout(() => {
       selectedDiv.classList.remove('active')
-    }, 300)
+    }, 200)
   })
 }
 
 function makeSound(aniName) {
-  console.log(aniName)
   switch (aniName) {
     case '🐊':
       let sound1 = new Audio('sound/alligator.mp3')
